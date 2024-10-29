@@ -4,6 +4,10 @@ on:
         paths: 
         - 'ARM/**'
         - '.github/workflows/infraworkflow.yml'
+        
+permissions:
+    id-token: write   # Grant write permission for id-token to enable OIDC
+    contents: read    # Necessary for checking out the repository
 
 env:
     AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID  }}    # set this to your Azure Subscription Id
