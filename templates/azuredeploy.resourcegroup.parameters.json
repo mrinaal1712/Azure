@@ -5,8 +5,8 @@
       "rgName": {
         "value": "GEN-UNIQUE"
       },
-      "rgLocation": {
-        "value": "centralus"
+      "rgLocation": "eastus"{
+        "value": "eastus"
       }
     }
   }
